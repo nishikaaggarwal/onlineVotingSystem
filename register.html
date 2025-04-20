@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>ONLINE VOTING SYSTEM-Registration</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <body>
+        <Style>
+#photo{
+border: 1px solid black;
+border-radius: 10px;
+padding: 10px;
+width: 20%;
+
+}
+#role select{
+    border: 1px solid black;
+border-radius: 10px;
+padding: 10px;
+width:30%;
+}
+        </Style>
+        <div id="headerSection">
+            <h1>ONLINE VOTING SYSTEM</h1>
+        </div>
+        <hr>
+        <h2 id="registration">REGISTRATION</h2>
+        <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="Name" placeholder="Name"><br><br>
+            <input type="number" name="SAP Id" placeholder="SAP Id">
+            <input type="number" name="Roll Number" placeholder="Roll Number"><br><br>
+            <input type="password" name="password" placeholder="password">
+            <input type="password" name="confirm password" placeholder="confirm password"><br><br>
+            <div>
+                Upload Image: <input id="photo" type="file" name="photo"><br><br>
+            </div>
+<div>
+    Select Role: <select id=" role" name="role" >
+        <option value="1">Student</option>
+        <option value="2">Faculty</option>
+    </select><br><br><br>
+</div>
+             <button style="padding: 10px;
+             border-radius: 5px;
+             width:30%;" >Register</button><br><br><br><br>
+            Already User?<a href="../index.html">Login Here</a>
+        </form>
+    </body>
+</html>

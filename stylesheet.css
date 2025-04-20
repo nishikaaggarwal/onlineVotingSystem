@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+#headerSection{
+    text-align: center;
+    background-color: rgba(27, 93, 134, 0.427);
+}
+#headerSection{
+    padding: 10px;
+    }
+    #headerSection h1{
+        font-family: Tahoma, Verdana, sans-serif;
+     }
+     input{
+        padding: 10px;
+        border-radius: 5px;
+     }
+
+     #dropbox{
+        padding: 10px;
+        border-radius: 5px;
+        width:30%;
+     }
+     #button{
+        padding: 10px;
+        border-radius: 5px;
+        width:30%;
+        background-color: white;
+     }
+     #registration{
+        font-family: Tahoma, Verdana, sans-serif;
+        padding: 10px;
+        border-radius: 5px;
+     }
+     #registerButtton{
+        padding: 10px;
+        border-radius: 5px;
+        width:30%;
+     }
